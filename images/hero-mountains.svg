@@ -1,0 +1,32 @@
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="700" fill="#20302A"/>
+<rect width="1200" height="700" fill="url(#sky)"/>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#3E5A4A"/>
+<stop offset="100%" stop-color="#1B2A22"/>
+</linearGradient>
+</defs>
+<polygon points="0,420 220,180 420,420" fill="#A9BCC4" opacity="0.55"/>
+<polygon points="300,420 560,140 820,420" fill="#A9BCC4" opacity="0.4"/>
+<polygon points="650,420 950,200 1200,420" fill="#A9BCC4" opacity="0.6"/>
+<polygon points="180,420 200,360 220,420" fill="#F7F9FA" opacity="0.9"/>
+<polygon points="520,420 560,330 600,420" fill="#F7F9FA" opacity="0.9"/>
+<polygon points="900,420 950,300 1000,420" fill="#F7F9FA" opacity="0.9"/>
+<rect x="0" y="420" width="1200" height="280" fill="#2F4538"/>
+<g fill="#20302A">
+<polygon points="100,420 130,330 160,420"/>
+<polygon points="160,420 190,350 220,420"/>
+<polygon points="980,420 1010,330 1040,420"/>
+<polygon points="1040,420 1070,355 1100,420"/>
+<polygon points="1080,420 1115,340 1150,420"/>
+</g>
+<rect x="430" y="470" width="340" height="150" rx="6" fill="#8B5E3C"/>
+<rect x="430" y="470" width="340" height="34" fill="#20302A"/>
+<g fill="#D89B3F">
+<rect x="460" y="520" width="50" height="60"/>
+<rect x="540" y="520" width="50" height="60"/>
+<rect x="620" y="520" width="50" height="60"/>
+<rect x="700" y="520" width="50" height="60"/>
+</g>
+</svg>
