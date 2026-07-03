@@ -31,8 +31,4 @@ Just open `index.html` in any browser — no build step required.
 ## Deployment
 This project is hosted on GitHub and deployed live via Netlify.
 
-- GitHub Repo: _add link here_
-- Live Site (Netlify): _add link here_
 
-## Author
-_Add your name and registration number here_
