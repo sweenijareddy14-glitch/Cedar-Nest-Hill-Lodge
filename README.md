@@ -1,34 +1,159 @@
-# Cedar Nest Hill Lodge — Hotel Website
+# Cedar Nest Hill Lodge Website
 
-A responsive, multi-page static website for **Cedar Nest Hill Lodge**, a fictional budget-friendly hotel in Manali, Himachal Pradesh. Built for the MANTRA 2026 Summer School Frontend Website Assignment.
+A responsive multi-page hotel website developed for **Cedar Nest Hill Lodge**, a fictional budget accommodation located in Old Manali, Himachal Pradesh. This project was created to demonstrate responsive web design, modern UI principles, semantic HTML, CSS styling, JavaScript interactivity, and basic SEO implementation.
 
-## Design Direction
-The site uses a topographic-contour theme throughout — a hand-drawn contour line beneath every header, and the Rooms page presents room types as stops on a mountain trail ("Base Camp" to "Summit Suite") with an alternating, asymmetric layout instead of a uniform grid. Palette: pine green, cedar bark, mist grey, cream, and mustard accent.
+---
 
-## Pages
-- `index.html` — Home: banner, highlights, featured rooms, testimonials, call-to-action
-- `about.html` — About the lodge and its story
-- `rooms.html` — Room types, prices, and a booking FAQ accordion
-- `gallery.html` — Photo gallery with captions and alt text
-- `booking.html` — Booking/contact form with validation and an embedded map
+## Project Overview
 
-## Tech Used
-- HTML5 (semantic structure, SEO meta tags, alt text)
-- CSS3 (responsive layout, flexbox/grid, media queries)
-- Vanilla JavaScript (mobile menu toggle, FAQ accordion, booking form validation)
+The website provides visitors with a complete overview of the hotel, including accommodation details, gallery, hotel information, and an online booking enquiry form. It is designed with a mountain-inspired theme using earthy colors, responsive layouts, and accessible navigation to provide an engaging user experience across all devices.
 
-## JavaScript Features
-- Mobile hamburger menu toggle
-- FAQ accordion on the Rooms page
-- Booking form validation (required fields, email format, phone format) with success message
+---
 
-## SEO
-Each page has a unique `<title>`, meta description, meta keywords, one `<h1>`, structured `<h2>`/`<h3>` headings, descriptive file names, and alt text on all images.
+## Features
 
-## Run Locally
-Just open `index.html` in any browser — no build step required.
+* Fully responsive design for desktop, tablet, and mobile devices
+* Modern multi-page website layout
+* Interactive navigation with mobile menu support
+* Hotel information and accommodation details
+* Image gallery with descriptive captions
+* Booking enquiry form with client-side validation
+* Embedded Google Maps location
+* Live chat support integration using Tawk.to
+* SEO-friendly page structure
+* Semantic HTML5 markup
+* Accessible images with descriptive alt attributes
 
-## Deployment
-This project is hosted on GitHub and deployed live via Netlify.
+---
 
+## Website Pages
 
+| Page        | Description                                                                            |
+| ----------- | -------------------------------------------------------------------------------------- |
+| **Home**    | Hero section, hotel highlights, featured rooms, guest testimonials, and call-to-action |
+| **About**   | Information about the hotel, its story, and core values                                |
+| **Rooms**   | Available room categories, pricing, facilities, and frequently asked questions         |
+| **Gallery** | Hotel images, room interiors, mountain views, and nearby attractions                   |
+| **Booking** | Booking enquiry form, hotel contact information, and Google Maps location              |
+
+---
+
+## Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Google Fonts
+* Google Maps Embed
+* Tawk.to Live Chat
+
+---
+
+## Project Structure
+
+```text
+Cedar-Nest-Hill-Lodge/
+│
+├── index.html
+├── about.html
+├── rooms.html
+├── gallery.html
+├── booking.html
+├── preview.html
+│
+├── style.css
+├── script.js
+├── chat-widget.js
+├── robots.txt
+├── README.md
+│
+└── images/
+    ├── hero-mountains.svg
+    ├── contour-line.svg
+    ├── room-standard.svg
+    ├── room-deluxe.svg
+    ├── room-family.svg
+    ├── room-dorm.svg
+    ├── gallery-valley.svg
+    ├── gallery-bonfire.svg
+    ├── gallery-cafe.svg
+    ├── gallery-room-interior.svg
+    ├── gallery-sunset.svg
+    └── gallery-trail.svg
+```
+
+---
+
+## JavaScript Functionality
+
+* Responsive navigation menu
+* Booking form validation
+* Success message after successful form submission
+* FAQ accordion for room information
+* Live chat widget integration
+
+---
+
+## SEO Implementation
+
+The website follows standard SEO practices, including:
+
+* Unique page titles
+* Meta descriptions
+* Meta keywords
+* Canonical URLs
+* Open Graph metadata
+* Twitter Card metadata
+* Structured data (Schema.org)
+* Semantic heading hierarchy
+* Optimized image alt text
+* Robots.txt configuration
+
+---
+
+## Responsive Design
+
+The website is fully responsive and optimized for:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile devices
+
+Responsive layouts were created using CSS Flexbox, CSS Grid, and Media Queries.
+
+---
+
+## Getting Started
+
+### Clone the Repository
+
+```bash
+
+```
+
+### Run the Project
+
+1. Open the project folder.
+2. Open **index.html** in any modern web browser.
+
+No additional installation or dependencies are required.
+
+---
+
+## Future Improvements
+
+* Backend integration for booking management
+* Email confirmation for booking requests
+* Online payment gateway
+* Admin dashboard
+* Room availability management
+* User authentication system
+
+---
+
+---
+
+## License
+
+This project was developed for educational purposes as part of the MANTRA 2026 Summer School Frontend Website Assignment.
