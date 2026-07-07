@@ -153,9 +153,6 @@ No additional installation or dependencies are required.
 * User authentication system
 
 ---
+## Website Link (Netlify)
 
----
-
-## License
-
-This project was developed for educational purposes as part of the MANTRA 2026 Summer School Frontend Website Assignment.
+https://lucky-smakager-e50de4.netlify.app/
